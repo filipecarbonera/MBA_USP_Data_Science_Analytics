@@ -13,6 +13,7 @@
 !pip install seaborn
 !pip install plotly
 !pip install scipy
+
 !pip install scikit-learn
 !pip install pingouin
 
