@@ -453,8 +453,6 @@ plt.show()
 
 # In[1.24]: DÚVIDA: Qual estimação devo escolher? (com figura proveninente de URL)
 
-import urllib.request
-
 # Definição da URL da imagem
 url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKNf7Jk3b2LG23egCN7w7TW0275Vd2_lhYWHLlGGizplLYc74wLukF-EbOIB8YY8YB9L0&usqp=CAU"
 
