@@ -36,7 +36,7 @@ def descritiva(df_, var, vresp='survived', max_classes=5):
     
     # Criar o segundo eixo y para a taxa de sobreviventes
     ax2 = ax1.twinx()
-    sns.countplot(data=df, x=var, palette='viridis', alpha=0.5, ax=ax2)
+    sns.countplot(data=df, x=var, alpha=0.5, ax=ax2)
     ax2.set_ylabel('Frequência', color='blue')
     ax2.tick_params(axis='y', labelcolor='blue')
     
