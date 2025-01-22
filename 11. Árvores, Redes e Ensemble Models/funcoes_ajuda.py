@@ -30,7 +30,7 @@ def descritiva(df_, var, vresp='survived', max_classes=5):
     if df[var].nunique()>max_classes:
         df[var] = pd.qcut(df[var], max_classes, duplicates='drop')
     
-    fig, ax1 = plt.subplots(figsize=(10, 6))
+    fig, ax1 = plt.subplots(figsize=(8, 4))
     
     sns.pointplot(data=df, y=vresp, x=var, ax=ax1)
     
